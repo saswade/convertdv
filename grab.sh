@@ -20,4 +20,4 @@ cd "$workdir"
 # autosplit splits recording when new scene starts based on time
 # -autosplit=120 splits the recording whenever there
 #                 is a gap in the recording that is 2 mins or longer.
-dvgrab -autosplit=3 -size 1000 -timecode -t -rewind "$fileprefix"
+dvgrab -autosplit=10 -size 1000 -timecode -t -rewind "$fileprefix"

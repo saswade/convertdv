@@ -8,7 +8,8 @@ function convert {
                         -preset medium -profile:v main \
                         -level 3.0 -pix_fmt yuv420p -crf 23 \
                         -x264-params ref=4 \
-                        -acodec mp3 -ac 2 -ar 24000 -ab 80k \
+			-acodec aac -strict -2 \
+                        -ac 2 -ar 24000 -ab 80k \
                         -movflags faststart \
 			-nostdin \
                         "$2" > /dev/null 2>&1
