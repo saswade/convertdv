@@ -53,7 +53,7 @@ All mp4 files go under ```mp4``` sub dir
 This will create dir under
 ```dv/some_event_name/```.
 All captured recording go under it. Recording is done in raw dv format. 
-1 Hr Digital 8 recording created ~13GB of files.
+1 Hr Digital 8 recording creates ~13GB of files.
 ## Convert
 Use same event name mentioned for capture
 ```
@@ -61,7 +61,7 @@ Use same event name mentioned for capture
 ```
 All mp4 go under
 ```mp4/some_event_name/```.
-After conversion total files sise comes ~1GB
+After conversion is done, total files size comes to ~1GB
 ## Capture and Convert in one shot
 ```
 ./grab_n_convert.sh some_event_name
