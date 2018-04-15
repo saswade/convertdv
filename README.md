@@ -20,7 +20,7 @@ to capture recording from camcorder. Use ```ffmpeg``` to convert captured record
 ### Equipment
  1. Old [Sony Digital Handycam](https://esupport.sony.com/US/p/model-home.pl?mdl=DCRTRV510&LOC=3)
  2. Ordered this [Firewire card](https://www.amazon.com/Firewire-Expansion-Rosewill-RC-504-Controller/dp/B004F3DM6C). Note: This card has power input, no need to give power to it as Handycam is powered by it's own power source. Also it came with Firewire cable.
- 3. Dell 5 year old desktop, Ubuntu, i7, 16GB RAM, 1T HDD
+ 3. Dell 5 year old desktop, Ubuntu, i7, 16GB RAM, 1TB HDD with ~500GB space.
 
 ### Setup
 Added Firewire card in to the Desktop. Hooked up Handycam's Firewire port to it and that is it.
