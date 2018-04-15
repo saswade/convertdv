@@ -8,12 +8,17 @@ manually.
 ## Goal
 1. Only manual action should be pop a tape in Digital8 or DV camcorder. Everything else up to creating mp4 files should be completely automated.
 2. Run a command that will do following
-  a. Capture recordings from tape and create separate files per recording.
-  b. Control over how tinly or big file to be catures and created.
-  c. Have proper recording time incorporated in the final files.
-  d. Compress the DV format file to mp4 (libx264) for archival in resonable space.
+   * Capture recordings from tape and create separate files per recording.
+   * Control over how tinly or big file to be catures and created.
+   * Have proper recording time incorporated in the final files.
+   * Compress the DV format file to mp4 (libx264) for archival in resonable space.
 
 ## Setup
 I did quick research and found that I can use dv capture card. Plug that to my Ubuntu desktop. Use ```dvgrab```
 to capture recording from camcorder. Use ```ffmpeg``` to convert captured recording to mp4.
 
+### Equipment
+ 1. 20 year Old [sony handycam](https://esupport.sony.com/US/p/model-home.pl?mdl=DCRTRV510&LOC=3)
+ 2. Ordered this [dv capture card](https://www.amazon.com/Firewire-Expansion-Rosewill-RC-504-Controller/dp/B004F3DM6C). Note no need to give power to this card as my Handycam is powered by it's power cord. Also it came with firewire cable.
+ 3. Dell 5 year old Ubuntu desktop. i7, 16GB RAM, 1T HDD
+ 
