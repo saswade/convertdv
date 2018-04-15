@@ -1,12 +1,9 @@
 # Capture and Convert Digital8 or DV tapes to mp4 (libx264)
-I have lots of Digital 8 tapes all the way from 2000 and
-I did not want to use one of those specialized dv to dvd converter devices. They are too time consuming and too manual.
-On top they do not have much control over when to create new file. Also using timestamp from DV recording to set proper
-timestamp on created file is not possible. One would have to do lots of work by painstakingly go through video and set it
-manually. There are so many other things like quality of the final output, file split one would like to control. Scripts can be tweaked to achieve the same.
+I have lots of old Digital 8 tapes all the way from 2000. Wanted to take a look at them and was wondering if my old Handycam would still work. I was in luck, it worked but watching tapes on Handycam (and connect it to TV with RCA connectors) is pain. I wanted to convert them to a video file so that I can watch them on modern devices like smart phone, computer etc. At the same time I did not want to use one of those specialized dv to dvd converter devices. They are too time consuming and too manual.
+On top they do not have much control over quality and maintaining file per recording in chronological order with record time timestamp. One would have to do lots of work by painstakingly go through video and split and set timestamp on converted files manually. There are so many other aspects one would like to tweak like quality of the final output, video format, create file on when new recording plays etc. Scripts mentioned hear can be used (and tweaked) to achieve the same. 
 
 ## Goal
-1. Only manual action should be pop a tape in Digital8 or DV camcorder. Everything else up to creating mp4 files should be completely automated.
+1. Only manual action I want to take is pop a tape in Digital8 or DV camcorder. Everything else up to creating mp4 files should be completely automated.
 2. Run a command that will do following
    * Capture recordings from tape and create separate files per recording.
    * Control over how tiny or big file to be captures and created.
