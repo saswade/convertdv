@@ -3,7 +3,7 @@ I have lots of Digital 8 tapes all the way from 2000 and
 I did not want to use one of those specialized dv to dvd converter devices. They are too time consuming and too manual.
 On top they do not have much control over when to create new file. Also using timestamp from DV recording to set proper
 timestamp on created file is not possible. One would have to do lots of work by painstakingly go through video and set it
-manually.
+manually. There are so many other things like quality of the final output, file split one would like to control. Scripts can be tweaked to achieve the same.
 
 ## Goal
 1. Only manual action should be pop a tape in Digital8 or DV camcorder. Everything else up to creating mp4 files should be completely automated.
