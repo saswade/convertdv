@@ -18,9 +18,9 @@ I did quick research and found that I can use dv capture card. Plug that to my U
 to capture recording from camcorder. Use ```ffmpeg``` to convert captured recording to mp4.
 
 ### Equipment
- 1. 20 year Old [Sony Digital Handycam](https://esupport.sony.com/US/p/model-home.pl?mdl=DCRTRV510&LOC=3)
- 2. Ordered this [Firewire card](https://www.amazon.com/Firewire-Expansion-Rosewill-RC-504-Controller/dp/B004F3DM6C). Note: no need to give power to this card as my Handycam is powered by it's power cord. Also it came with Firewire cable.
- 3. Dell 5 year old Ubuntu desktop. i7, 16GB RAM, 1T HDD
+ 1. Old [Sony Digital Handycam](https://esupport.sony.com/US/p/model-home.pl?mdl=DCRTRV510&LOC=3)
+ 2. Ordered this [Firewire card](https://www.amazon.com/Firewire-Expansion-Rosewill-RC-504-Controller/dp/B004F3DM6C). Note: This card has power input, no need to give power to it as Handycam is powered by it's own power source. Also it came with Firewire cable.
+ 3. Dell 5 year old desktop, Ubuntu, i7, 16GB RAM, 1T HDD
 
 ### Setup
 Added Firewire card in to the Desktop. Hooked up Handycam's Firewire port to it and that is it.
@@ -51,20 +51,24 @@ All mp4 files go under ```mp4``` sub dir
 ./grab.sh some_event_name
 ```
 This will create dir under
-```dv/some_event_name/```
-All captured recording will go under it.
-
+```dv/some_event_name/```.
+All captured recording go under it. Recording is done in raw dv format. 
+1 Hr Digital 8 recording created ~13GB of files.
 ## Convert
 Use same event name mentioned for capture
 ```
 ./convert_dv_to_mp4.sh some_event_name
 ```
 All mp4 go under
-mp4/some_event_name/
-
+```mp4/some_event_name/```.
+After conversion total files sise comes ~1GB
 ## Capture and Convert in one shot
 ```
 ./grab_n_convert.sh some_event_name
 ```
 ## Result
 Happiness of watching old memories
+
+## License / Disclaimer and precautio
+These tiny number of scripts have [Apache, v2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+I have written this really quick to convert Digital Video Tapes to mp4 files. Scripts are manually tested against happy path. Please use them at your own risk. 
