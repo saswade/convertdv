@@ -1,5 +1,5 @@
 # Capture and Convert Digital8 or DV tapes to mp4 (libx264)
-I have lots of old Digital 8 tapes all the way from 2000. Wanted to take a look at them and was wondering if my old Handycam would still work. I was in luck, it worked but watching tapes on Handycam (and connect it to TV with RCA connectors) is pain. I wanted to convert them to a video file so that I can watch them on modern devices like smart phone, computer etc. At the same time I did not want to use one of those specialized dv to dvd converter devices. They are too time consuming and too manual.
+I have lots of old Digital 8 tapes all the way from 2000. Wanted to watch some old recording and was wondering if my old Handycam would still work. I was in luck, it worked but watching tapes on Handycam (and connect it to TV with RCA connectors) is a pain. Then I wanted to convert them to a video file so that I can watch them on modern devices like smart phone, computer etc. At the same time I did not want to use one of those specialized dv to dvd converter devices. They are too time consuming (lack of automation) and too manual.
 On top they do not have much control over quality and maintaining file per recording in chronological order with record time timestamp. One would have to do lots of work by painstakingly go through video and split and set timestamp on converted files manually. There are so many other aspects one would like to tweak like quality of the final output, video format, create file on when new recording plays etc. Scripts mentioned hear can be used (and tweaked) to achieve the same. 
 
 ## Goal
@@ -68,4 +68,4 @@ Happiness of watching old memories
 
 ## License / Disclaimer and precautio
 These tiny number of scripts have [Apache, v2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
-I have written this really quick to convert Digital Video Tapes to mp4 files. Scripts are manually tested against happy path. Please use them at your own risk. 
+I have written these scripts really quick to convert Digital Video Tapes to mp4 files. Scripts are manually tested against happy path. Please use them at your own risk. 
