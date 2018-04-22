@@ -15,12 +15,13 @@ I did quick research and found that I can use dv capture card. Plug that to my U
 to capture recording from camcorder. Use ```ffmpeg``` to convert captured recording to mp4.
 
 ### Equipment
- 1. Old [Sony Digital Handycam](https://esupport.sony.com/US/p/model-home.pl?mdl=DCRTRV510&LOC=3)
- 2. Ordered this [Firewire card](https://www.amazon.com/Firewire-Expansion-Rosewill-RC-504-Controller/dp/B004F3DM6C). Note: This card has power input, no need to give power to it as Handycam is powered by it's own power source. Also it came with Firewire cable.
- 3. Dell 5 year old desktop, Ubuntu, i7, 16GB RAM, 1TB HDD with ~500GB space.
+ 1. Camcorder (Old [Sony Digital Handycam](https://esupport.sony.com/US/p/model-home.pl?mdl=DCRTRV510&LOC=3))
+ 2. Firewire card or machine which have firewire port. (I ordered this [Firewire card](https://www.amazon.com/Firewire-Expansion-Rosewill-RC-504-Controller/dp/B004F3DM6C). Note: This card has power input, no need to give power to it as Handycam is powered by it's own power source. Also it came with Firewire cable.)
+ 3. Desktop or Laptop (I used Dell 5 year old desktop, i7, 16GB RAM, 1TB HDD with ~500GB free space)
+ 4. Linux OS (Mine is Ubuntu 16.04.4 LTS)
 
 ### Setup
-Added Firewire card in to the Desktop. Hooked up Handycam's Firewire port to it and that is it.
+Installed Firewire card in to the Desktop. Hooked up Handycam's Firewire port to it with firewire cable, and that is it.
 
 
 ## Software prerequisite
@@ -63,6 +64,8 @@ After conversion is done, total files size comes to ~1GB
 ```
 ./grab_n_convert.sh some_event_name
 ```
+I could have fed output of dvgrab to ffmpeg, but I purposely did not do that. I wanted to capture recording timestamp in the dv file name, then use it for setting file's last modified timestamp. This is essential in order to list captured and converted files in proper crolological order. That way if you upload these files in google photo or any other cloud then they will be ordered by their recording time and not captured time. 
+
 ## Result
 Happiness of watching old memories
 
