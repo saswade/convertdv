@@ -4,11 +4,11 @@ On top they do not have much control over quality and maintaining file per recor
 
 ## Goal
 1. Only manual action I want to take is pop a tape in Digital8 or DV camcorder. Everything else up to creating mp4 files should be completely automated.
-2. Run a command that will do following
+2. Execute dv grab and convert commands in bash shell that will do following
    * Capture recordings from tape and create separate files per recording.
    * Control over how tiny or big file to be captures and created.
    * Have proper recording time incorporated in the final files.
-   * Compress the DV format file to mp4 (libx264) for archival in reasonable space.
+   * Compress (lossy) the DV format files to mp4 (libx264) for archival in less space and/or to upload to cloud.
 
 ## Getting ready
 I did quick research and found that I can use dv capture card. Plug that to my Ubuntu desktop. Use ```dvgrab```
