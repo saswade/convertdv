@@ -65,11 +65,11 @@ After conversion is done, total files size comes to ~1GB
 ```
 ./grab_n_convert.sh "2000_11_10_baby_neil_starts_walking"
 ```
-Note: I could have fed output of dvgrab to ffmpeg to not split process in to grab then convert and save some space and time, however I choose to not do so. I wanted to capture recording timestamp in the dv file name, then use it for setting file's last modified timestamp. This is essential in order to list captured and converted files in proper crolological order. That way if you upload these files in google photo or any other cloud then they will be ordered by their recording time and not captured time. Splitting task in capture and convert is the easiest way I could achieve timestamp (not the only way). It takes another 10-18 minutes to convert, which in my opinion is not big deal. Another advantage of splitting is, I can keep dv recording if I want for future use (remember, it's a raw format).
+Note: I could have fed output of dvgrab to ffmpeg. That way I could have avoided to not split process in to a. grab then b. convert and save some space/time, however I choose to not do so. Reason is, I wanted to capture recording timestamp in the dv file name, then use it (timestamp in the filename) for setting file's last modified timestamp. This is essential in order to list captured and converted files in proper crolological order. That way if you upload these files in google photos or any other photo/video cloud solution then they will appear in the listing, by their recording time and not captured time. To achieve that goal first capture and then convert is the easiest way I found (not the only way). It takes another 10-18 minutes to convert, which in my opinion is not a big deal. Another advantage of splitting is, I can keep raw uncompressed dv recording  for future use.
 
 ## Result
 Happiness of watching old memories
 
-## License / Disclaimer and precautio
+## License / Disclaimer and precaution
 These tiny number of scripts have [Apache, v2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 I have written these scripts really quick to convert Digital Video Tapes to mp4 files. Scripts are manually tested against happy path. Please use them at your own risk. 
